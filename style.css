@@ -364,11 +364,9 @@ a:hover {
     z-index: 2;
 }
 
-.col-sm-4 ul li a{
-    list-style-type: none;
+.padding{
     padding: 16px 6px;
 }
-
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -685,7 +683,7 @@ a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -745,7 +743,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #fff!important;
 }
 
 .portfolio-thumb {
@@ -762,7 +760,8 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #953101;
+    opacity: 0.7;
     padding: 40px 40px 40px 40px;
 }
 
@@ -780,16 +779,16 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #953101;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #fff!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color:  #424242!important;
+    background: #953101;
+    color:  #fff!important;
 }
 
 .btn-atomic-tangerine:hover {
