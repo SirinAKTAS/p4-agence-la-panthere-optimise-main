@@ -765,6 +765,23 @@ h4 {
     padding: 40px 40px 40px 40px;
 }
 
+a:focus{
+    border-bottom: 1px solid black;
+}
+
+li:focus{
+    border-bottom: 1px solid black;
+}
+h2:focus{
+    border-bottom: 1px solid black;
+}
+h1:focus{
+    border-bottom: 1px solid black;
+}
+div:focus{
+    border-bottom: 1px solid black;
+}
+
 .bold-link {
     font-weight: 900;
     text-decoration: underline!important;
